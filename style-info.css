@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    min-height: 100vh;
+    background: radial-gradient(circle at top left ,rgb(244, 230, 230) , rgb(187, 110, 110) , rgb(145, 60, 60) , rgb(60, 19, 19) ,black );
+}
+
+.form{
+    background-color: brown;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    input{
+        margin: 10px 5px;
+        border: 0px;
+        outline: 0px;
+        border-radius: 20px;
+        padding: 7px 12px;
+    }
+
+    label{
+        font-size: 17px;
+    }
+}
