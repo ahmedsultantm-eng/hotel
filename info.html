@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Almond Hotel</title>
+  </head>
+  <body>
+    <div class="form">
+      <h1>Welcome to Almond</h1>
+      <p>please fill up this form</p>
+      <form action="" id="info">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <br />
+        <label for="country">country:</label>
+        <input type="text" list="countrys" placeholder="select" id="country" />
+        <datalist id="countrys">
+          <option value="China">China</option>
+          <option value="Egypt">Egypt</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>
+          <option value="Japan">Jaban</option>
+          <option value="Jordan">Jordan</option>
+          <option value="Lebanon">Lebanon</option>
+          <option value="Moroco">Moroco</option>
+          <option value="palestine">palestine</option>
+          <option value="Syria">Syria</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="United States">United States</option>
+        </datalist>
+        <br />
+        <div>
+          <input type="checkbox" name="check" id="check" />I agree to all terms
+        </div>
+        <br />
+        <button>supmit</button>
+      </form>
+    </div>
+  </body>
+</html>
