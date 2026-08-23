@@ -1,4 +1,4 @@
-
+/* 
 
 h1{
  display: flex;
@@ -21,25 +21,28 @@ body{
     border-radius: 30px;
     border: #dff2f9;
     background-color: #9b9a9a;
+      padding: 5px;
    
 }
 
-.inpute-label {
+.label {
 display:flex;
  justify-content: center;
  align-items: center;
-
+ font-size: 22px;
+ margin: 10px;
 }
 
 .qustion{
-    font-size: 35px;
+    font-size: 25px;
 }
 
 
 .rating {
     display: flex;
-    justify-content: space-between;
-    max-width: 1300px;
+    justify-content: space-between
+    ;
+    max-width: 100px;
 }
 
 .rating input {
@@ -47,8 +50,8 @@ display:flex;
 }
 
 .rating label {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border: 2px solid #d9e0e8;
     border-radius: 50%;
 
@@ -63,7 +66,7 @@ display:flex;
     cursor: pointer;
 }
 
-/* When selected */
+
 .rating input:checked + label {
     background-color: #173f7a;
     color: white;
@@ -116,4 +119,127 @@ button{
 }
 button:hover{
 background-color: #7c1d1d;
+} */
+ h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1F2A44;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1F2A44;
+}
+
+body{
+    background:
+    radial-gradient(circle at 20% 0%, #d5c9b4, transparent 55%),
+    linear-gradient(180deg, #e8d1a3 0%, #FFFFFF 100%);
+}
+
+.in{
+  border-radius: 30px;
+  border: 2px solid #C6A15B;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin: 10px;
+  color: #292929;
+}
+
+.qustion{
+  font-size: 25px;
+  color: #1F2A44;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #C6A15B;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #1F2A44;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* When selected */
+.rating input:checked + label {
+  background-color: #C6A15B;
+  color: #FFFFFF;
+  border-color: #C6A15B;
+}
+
+.hotel-rating {
+  margin: 30px 0;
+}
+
+.stars {
+  display: flex;
+  gap: 8px;
+}
+
+.stars span {
+  font-size: 55px;
+  color: #D3D3D3;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.stars span:hover {
+  transform: scale(1.15);
+}
+
+.stars span.active {
+  color: #C6A15B;
+}
+
+#ratingText {
+  font-size: 18px;
+  color: #77736B;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1F2A44;
+  color: #FFFFFF;
+  border-radius: 17%;
+  border-color: #1F2A44;
+  font-size: 15px;
+  width: 70px;
+  height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+  background-color: #C6A15B;
+  border-color: #C6A15B;
 }

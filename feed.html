@@ -12,46 +12,49 @@
     <h1>Almond hotel</h1>
     <h2> Feedback</h2>
     <form action="" id="feed">
-        <section class="inpute-label">
-     
-        <label  for="name">Full Name:</label>
-        <input class="in"    type="text" id="name" />
-        <br>
-      
+        <section class="label">
+
+            <label class="label" for="name">Full Name:</label>
+            <input class="in" type="text" id="name" />
+            <br>
+
         </section>
-            <p class="qustion">How satisfied were you with your overall hotel experience?</p>
-            <div class="rating">
-                <form>
-                    <input type="radio" name="rating" id="r1" value="1">
-                    <label for="r1">1</label>
 
-                    <input type="radio" name="rating" id="r2" value="2">
-                    <label for="r2">2</label>
 
-                    <input type="radio" name="rating" id="r3" value="3">
-                    <label for="r3">3</label>
+        <form>
+        <p class="qustion">How satisfied were you with your overall hotel experience?</p>
+        <div class="rating">
+            
+                <input type="radio" name="rating" id="r1" value="1">
+                <label for="r1">1</label>
 
-                    <input type="radio" name="rating" id="r4" value="4">
-                    <label for="r4">4</label>
+                <input type="radio" name="rating" id="r2" value="2">
+                <label for="r2">2</label>
 
-                    <input type="radio" name="rating" id="r5" value="5">
-                    <label for="r5">5</label>
+                <input type="radio" name="rating" id="r3" value="3">
+                <label for="r3">3</label>
 
-                    <input type="radio" name="rating" id="r6" value="6">
-                    <label for="r6">6</label>
+                <input type="radio" name="rating" id="r4" value="4">
+                <label for="r4">4</label>
 
-                    <input type="radio" name="rating" id="r7" value="7">
-                    <label for="r7">7</label>
+                <input type="radio" name="rating" id="r5" value="5">
+                <label for="r5">5</label>
 
-                    <input type="radio" name="rating" id="r8" value="8">
-                    <label for="r8">8</label>
+                <input type="radio" name="rating" id="r6" value="6">
+                <label for="r6">6</label>
 
-                    <input type="radio" name="rating" id="r9" value="9">
-                    <label for="r9">9</label>
+                <input type="radio" name="rating" id="r7" value="7">
+                <label for="r7">7</label>
 
-                    <input type="radio" name="rating" id="r10" value="10">
-                    <label for="r10">10</label>
-            </div>
+                <input type="radio" name="rating" id="r8" value="8">
+                <label for="r8">8</label>
+
+                <input type="radio" name="rating" id="r9" value="9">
+                <label for="r9">9</label>
+
+                <input type="radio" name="rating" id="r10" value="10">
+                <label for="r10">10</label>
+        </div>
     </form>
     <form>
         <p class="qustion">How would you rate the cleanliness of your room?</p>
@@ -193,7 +196,7 @@
             <label for="r10-q5">10</label>
         </div>
     </form>
-    
+
     <form>
         <div class="hotel-rating">
             <h2>How satisfied were you with your overall hotel experience?</h2>
@@ -209,7 +212,9 @@
             <p id="ratingText">Please rate your experience</p>
         </div>
     </form>
+    <br>
     <button>submit</button>
+
     </form>
     <script>
         function rate(number) {
@@ -230,6 +235,7 @@
             text.textContent = number + " out of 5";
         }
     </script>
+
 </body>
 
 </html>
