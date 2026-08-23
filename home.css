@@ -1,8 +1,8 @@
 
 h1{
     color: #1F2A44;
-
-       display: flex;
+    margin: 30px 0px;
+    display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -24,9 +24,12 @@ nav {
     justify-content: space-around;
     gap: 20px;
     text-decoration: none;
-  
     padding: 10px;
     border-radius: 5px;
+
+    a{
+        padding: 3px;
+    }
 }
 .link{
     text-decoration: none;
@@ -62,6 +65,7 @@ nav {
 .room:hover{
     transform: scale(1.1);
     background-color:#1F2A44;
+    border: 0;
     color: white;
 }
 #book{
@@ -76,4 +80,10 @@ nav {
     transform: scale(1.1);
     background-color: white;
     color:#1F2A44;
+}
+
+#feedback{
+    a{
+        text-decoration: none;
+    }
 }
