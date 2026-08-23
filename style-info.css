@@ -1,4 +1,5 @@
 *{
+    color: #1F2A44;
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -6,18 +7,20 @@
 
 body{
     min-height: 100vh;
-    background: radial-gradient(circle at top left ,rgb(244, 230, 230) , rgb(187, 110, 110) , rgb(145, 60, 60) , rgb(60, 19, 19) ,black );
+    background:
+    radial-gradient(circle at 20% 0%, #FFFFFF, transparent 55%),
+    linear-gradient(180deg, #b8ab92 0%, #bc9a55 100%);
 }
 
 .form{
-    background-color: brown;
+    background-color:#ddd4be ;
     width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 420px;
-    border: 2px solid black;
+    height: 480px;
+    border: 3px solid #1F2A44;
     border-radius: 15px;
     padding: 20px;
     position:absolute;
@@ -25,15 +28,62 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 
-    input{
-        margin: 10px 5px;
+    h1{
+        position: absolute;
+        top: 5%;
+    }
+
+    input {
+        width: 200px;
+        margin: 3px 5px 20px 5px;
         border: 0px;
         outline: 0px;
-        border-radius: 20px;
+        border-radius: 12px;
         padding: 7px 12px;
+        
+    }
+    
+    input:focus{
+        outline:2px solid #1F2A44;
+        transform: scale(1.07);
+        transition: 0.2s;
+    }
+
+    #info{
+        width: 200px;
     }
 
     label{
+        display: flex;
+
         font-size: 17px;
+
     }
+}
+
+.datediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+button{
+    color: aliceblue;
+    background-color: #1F2A44;
+    border-color: #1F2A44;
+    padding: 9px;
+    width: 70px;
+    border-radius: 12px;
+    position: absolute;
+    left: 80%;
+    top: 88%;
+}
+
+button:hover{
+    background-color: #C6A15B;
+    border-color: #C6A15B;
+    transform: translateY(-3px) translateX(2px) scale(1.03);
+    transition: 0.3s;
 }
