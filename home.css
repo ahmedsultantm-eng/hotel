@@ -1,0 +1,60 @@
+body{
+    background-color: #3f42bb;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 10px;
+    border-radius: 5px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    border: 3px solid rgb(27, 68, 140);
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s;
+    transform: scale(1);
+}
+.link:hover{
+    transform: scale(1.1);
+    background-color: rgb(27, 68, 140);
+    color: white;
+}
+#rooms{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.room{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(27, 68, 140);
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+.room:hover{
+    transform: scale(1.1);
+    background-color: rgb(27, 68, 140);
+    color: white;
+}
+#book{
+    background-color: rgb(27, 68, 140);
+    color: white;
+    border: 2px solid rgb(27, 68, 140);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+#book:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: rgb(27, 68, 140);
+}
