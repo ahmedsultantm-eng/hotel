@@ -137,7 +137,7 @@ h2{
 body{
     background:
     radial-gradient(circle at 20% 0%, #d5c9b4, transparent 55%),
-    linear-gradient(180deg, #e8d1a3 0%, #FFFFFF 100%);
+    linear-gradient(180deg, #e8d1a3 0%, #FFFF 100%);
 }
 
 .in{
