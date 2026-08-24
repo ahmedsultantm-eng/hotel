@@ -228,7 +228,6 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: #1F2A44;
   color: #FFFFFF;
   border-radius: 17%;
@@ -237,6 +236,7 @@ button{
   width: 70px;
   height: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
 }
 
 button:hover{

@@ -82,6 +82,13 @@ button{
     position: absolute;
     left: 80%;
     top: 88%;
+    cursor: pointer;
+    a{
+        color: aliceblue;
+        text-decoration: none;
+        width: 70px;
+    }
+
 }
 
 button:hover{

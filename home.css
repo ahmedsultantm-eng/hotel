@@ -75,6 +75,7 @@ nav {
     border-radius: 5px;
     padding: 10px;
     transition: 0.3s;
+    cursor: pointer;
 }
 #book:hover{
     transform: scale(1.1);
@@ -83,7 +84,28 @@ nav {
 }
 
 #feedback{
+    padding-bottom:400px ;
     a{
         text-decoration: none;
+    }
+}
+
+.nav-page{
+    h2{
+        margin: 40vh 0px 15px 0px;
+    }
+
+
+}
+#contact , #about , #feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 0;
+        font-size: 17px;
+        padding: 10px 0px;
     }
 }
